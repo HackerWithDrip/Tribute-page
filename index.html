@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<main id="main">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title id="title">Dr. Norman Borlaug</title>
+        <style>
+            h1 {
+                text-align: center;
+                margin: 10px 20px 10px 20px;
+                background-color: rgb(106, 236, 219);
+                border-radius: 8px;
+                padding: 10px 100px 10px 100px;
+            }
+            
+            .img {
+                max-width: 100%;
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+                border-style: solid;
+                background-color: rgb(106, 236, 219);
+                box-shadow: 15px 15px rgb(106, 236, 219);
+                height: auto;
+            }
+            
+            #list {
+                text-align: left;
+                margin-left: 300px;
+                margin-right: 300px;
+                line-height: 40px;
+            }
+            
+            h2 {
+                text-align: center;
+            }
+            
+            #tribute-info {
+                animation-iteration-count: infinite;
+                animation-name: tribute;
+            }
+            
+            @keyframes tribute {
+                0% {
+                    -o-animation: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+                }
+            }
+        </style>
+    </head>
+
+    <body>
+        <div>
+            <h1 id="img-caption">Dr. Norman Borlaug</h1>
+            <div id="img-div">
+                <figcaption id="img-caption"><img src="Dr.norman.jpeg" id="image" class="img"></div>
+            <p id="tribute-info"><em><strong>Dr. Norman Borlaug</strong>,
+            third from the left,
+            trains biologists in Mexico on how to increase wheat yields - part of his life-long war on hunger.</em></p>
+        </div>
+        <div id="timeline">
+            <h2>Here's a time line of Dr. Borlaug's life:</h2>
+            <ul id="list">
+                <li><strong>1914</strong>- Born in Cresco, Iowa
+                </li>
+                <li><strong>1933</strong>- Leaves his family's farm to attend the University of Minnesota, thanks to a Depression era program known as the "National Youth Administration"</li>
+                <li><strong>1935</strong>- Has to stop school and save up more money. Works in the Civilian Conservation Corps, helping starving Americans. "I saw how food changed them", he said. "All of this left scars on me."</li>
+                <li><strong>1937</strong>- Finishes university and takes a job in the US Forestry Service</li>
+                <li><strong>1938</strong>- Marries wife of 69 years Margret Gibson. Gets laid off due to budget cuts. Inspired by Elvin Charles Stakman, he returns to school study under Stakman, who teaches him about breeding pest-resistent plants.</li>
+            </ul>
+        </div>
+        <p>The list goes on. To read more about Dr. Norman, please visit <a href="https://en.wikipedia.org/wiki/Norman_Borlaug" target="_blank" id="tribute-link">Wikipedia entry</a></p>
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    </body>
+</main>
+
+</html>
